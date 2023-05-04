@@ -13,9 +13,9 @@
 @import url('./footer');
 
 :root {
-  --main-family: 'Roboto', sans-serif;
-  --main-color: #2e2f42;
-  --secondary-color: #434455;
-  --main-background-color: #ffffff;
-  --logo-color: #4d5ae5;
+  --main-family: 'Epilogue', sans-serif;
+  --main-background-black-color: #141414;
+  --main-background-white-color: #efefef;
+  --main-light-color: #ffffff;
+  --main-dark-color: #141414;
 }
