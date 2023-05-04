@@ -7,6 +7,11 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./about.css');
+@import url('./catalog');
+@import url('./new-watches');
+@import url('./sale');
+@import url('./footer');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
