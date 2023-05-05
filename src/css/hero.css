@@ -1,0 +1,132 @@
+.hero {
+  background-color: var(--main-background-black-color);
+  padding-bottom: 40px;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: var(--main-light-color);
+  margin-bottom: 60px;
+}
+
+.swiper {
+  position: relative;
+  margin-bottom: 40px;
+  margin-left: 0;
+  width: 266px;
+}
+.swiper-wrapper {
+  margin-bottom: 20px;
+}
+.swiper-btn-container {
+  display: flex;
+  gap: 12px;
+}
+/* .swipwer-svg {
+  fill: rgba(255, 255, 255, 0.5);
+} */
+.swiper-count {
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--main-light-color);
+}
+.swiper-counter {
+  display: flex;
+  gap: 6px;
+}
+.swiper-count {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.line::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 1px;
+  border: 1px solid #ffffff;
+}
+.swiper-num {
+  position: absolute;
+  right: 60px;
+  bottom: -47px;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--main-light-color);
+}
+.swiper-elements {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-text-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+.hero-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--main-light-color);
+  width: 248px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 64px;
+  }
+  .hero .container {
+    width: 734px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .hero-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.03;
+    width: 653px;
+  }
+  .swiper {
+  width: 436px;
+  }
+  
+  .slider-text-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .swiper-swg {
+    width: 40px;
+    height: 40px;
+  }
+  .line::before {
+  width: 40px;
+}
+.swiper-num {
+  right: 68px;
+  
+}
+
+}
+@media screen and (min-width: 1280px) {
+  .hero .container {
+    width: 1206px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .hero-title {
+    width: 750px;
+  }
+  .hero-text {
+    width: 282px;
+  }
+
+}
+
+
