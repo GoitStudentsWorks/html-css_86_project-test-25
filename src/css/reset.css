@@ -40,6 +40,19 @@ img {
   padding: 0 20px;
 }
 
+@media and (min-width: 768px) {
+  .container {
+    width: 798px;
+    padding: 0 15px;
+  }
+}
+
+@media and (min-width: 768px) {
+  .container {
+    width: 1310px;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
