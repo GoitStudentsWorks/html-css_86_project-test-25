@@ -28,6 +28,10 @@ button {
   cursor: pointer;
 }
 
+address{
+font-style: normal;
+}
+
 img {
   display: block;
   max-width: 100%;
