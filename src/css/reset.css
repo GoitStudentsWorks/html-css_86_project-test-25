@@ -56,6 +56,35 @@ img {
   }
 }
 
+@font-face {
+  font-family: Epilogue;
+  src: url(../fonts/Epilogue/static/Epilogue-Light.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Epilogue;
+  src: url(../fonts/Epilogue/static/Epilogue-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Epilogue;
+  src: url(../fonts/Epilogue/static/Epilogue-SemiBold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
