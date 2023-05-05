@@ -42,13 +42,17 @@ img {
 
 @media and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 704px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
-@media and (min-width: 1310px) {
+@media and (min-width: 1280px) {
   .container {
-    width: 1310px;
+    width: 1206px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
