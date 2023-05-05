@@ -42,12 +42,11 @@ img {
 
 @media and (min-width: 768px) {
   .container {
-    width: 798px;
-    padding: 0 15px;
+    width: 768px;
   }
 }
 
-@media and (min-width: 768px) {
+@media and (min-width: 1310px) {
   .container {
     width: 1310px;
   }
