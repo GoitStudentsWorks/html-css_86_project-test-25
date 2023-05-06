@@ -25,8 +25,8 @@
   display: flex;
   gap: 12px;
 }
-/* .swipwer-svg {
-  fill: rgba(255, 255, 255, 0.5);
+/* .swiper-svg {
+  stroke: rgba(255, 255, 255, 0.5);
 } */
 .swiper-count {
   font-size: 14px;
