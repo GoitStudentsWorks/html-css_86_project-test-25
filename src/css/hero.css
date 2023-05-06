@@ -85,9 +85,9 @@
 .swiper-num {
   position: absolute;
   right: 60px;
-  bottom: -47px;
+  bottom: -45px;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--main-light-color);
 }
@@ -137,6 +137,12 @@
     margin-bottom: 40px;
   }
 
+  .swiper-num {
+    position: absolute;
+    right: 60px;
+    bottom: -50px;
+  }
+
   .slider-text-container {
     display: flex;
     align-items: center;
@@ -166,9 +172,11 @@
     width: 1206px;
     padding-right: 15px;
     padding-left: 15px;
+    gap: 0;
   }
   .hero-title {
     width: 750px;
+    margin-bottom: 42px;
   }
   .hero-text {
     width: 282px;
@@ -178,6 +186,7 @@
   .hero-text-container {
     order: -1;
     align-items: flex-start;
+    margin-bottom: 0;
   }
   .hero-title-container {
     order: -1;
@@ -188,8 +197,13 @@
   .swiper {
     margin-bottom: 0;
   }
+
   .swiper-container {
     display: flex;
     align-items: flex-end;
+  }
+
+  .hero-picture {
+    height: 394px;
   }
 }
