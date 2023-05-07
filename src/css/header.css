@@ -154,6 +154,11 @@
     padding-bottom: 80px;
   }
 
+  .header-logo-icon {
+    width: 19px;
+    height: 19px;
+  }
+
   .header-logo-text {
     font-size: 15px;
   }
