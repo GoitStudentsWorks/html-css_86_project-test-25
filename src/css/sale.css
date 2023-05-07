@@ -14,13 +14,7 @@ ul{ margin: 0;
     font-family:'Epilogue',sans-serif ;
     color: #141414;
     padding-bottom: 80px;
-
 }
-.container-sale{
-   
-    margin: 0 auto;
-}
-
 
 .title-sale{
     font-weight: 600;
@@ -112,19 +106,14 @@ margin-bottom: 17px;
 
     display: flex;
     gap:20px;
- 
-   
-   
-}
+ }
 .mini-gallery-sale{
  width: 100%;
  height:auto;
     display: flex;
     flex-direction: column;
     gap:10px;
-    
-   
-}
+    }
 
 .mini-gallary-list{
     max-width: 80px;
@@ -133,10 +122,8 @@ margin-bottom: 17px;
 .mini-gallery{
    
     display: block;
-    max-height: 80px;
-   
-  
-  }  
+    height: 80px;
+   }  
 .main-image-sale{
  
     max-width: 235px;
@@ -145,51 +132,39 @@ margin-bottom: 17px;
 .main-sale{
     display:block;
     width: 100%;
-    height: 100%;
-  
-    
+    height: 100%;    
 }
 
-
-
-
-
-
-
-
-
-
-
-
+@media  screen and (max-width:375px){
+.gallery-sale{
+    gap:10px;
+}
+}
+    
 /*-----MOBILE-----*/
 @media screen and (min-width:375px){
 
  .container-sale{
-    width: 375px;
-   
-}
+    width: 375px;}
 }
 /*----TABLET-----*/
 @media screen and (min-width:768px)
-{  .sale{
+{ .container{
+    width: 734px;
+}
+     .sale{
     padding-bottom: 128px;
 }
-    /* .container-sale{
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-   
-} */
 .gallery-sale{
-    padding-left: 66px;
-    padding-right: 66px;
+  
+    justify-content: center;
 }
 .description-sale{
-    padding-left: 66px;
-    padding-right: 66px;}
+width: 572px;
+    margin: 0 auto;}
     .mini-gallery
-    { max-width: 146px;
-        max-height: 146px;
+    { width: 146px;
+    height: 146px;
 }
 .main-image-sale{
     max-width: 406px;
@@ -205,8 +180,6 @@ line-height: 1.1;
    font-size: 38px;
 line-height: 1.1;
 }
-
-
 }
 .text-sale{
     max-width: 572px;
@@ -214,7 +187,9 @@ line-height: 1.1;
 
 /*----DESCTOP---*/
 @media screen and (min-width:1280px)
-{
+{ .container{
+    width: 1206px;
+}
     .wrapper-sale{
         display: flex;
         gap:40px;
@@ -226,16 +201,8 @@ line-height: 1.1;
     background-color: rgba(251, 251, 251, 1);
     padding-bottom: 160px;
     padding-top: 80px;
-    
-    
-}
-/* .container-sale{
-    width: 1440px;
-    padding-left: 132px;
-    padding-right: 132px;
-   
-   
-} */
+    }
+
 .gallery-sale{
     
     padding-left: 97px;
