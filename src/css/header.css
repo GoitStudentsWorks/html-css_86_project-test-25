@@ -145,6 +145,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    width: 734px;
+  }
   .header-menu-btn {
     display: none;
   }
@@ -206,5 +209,11 @@
   .header-address-link:focus {
     border-color: var(--main-light-color);
     transform: scale(1.1);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1206px;
   }
 }
