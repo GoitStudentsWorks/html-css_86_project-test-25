@@ -83,6 +83,7 @@
   position: absolute;
   top: 29px;
   right: 20px;
+  fill: #ffffff;
 }
 .close-menu {
   stroke: var(--main-light-color);
