@@ -21,7 +21,15 @@ footer {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #ffffff;
+
+  display: block;
+  width: 140px;
 }
+
+.footer-address-span {
+  display: block;
+}
+
 .footer-menu {
   font-size: 14px;
   line-height: 1.29;
@@ -53,7 +61,7 @@ footer {
   gap: 14px;
   margin-bottom: 80px;
 }
-.footer-list-menu {
+.footer-nav {
   margin-left: auto;
 }
 .footer-menu-item:not(:last-child) {
@@ -83,6 +91,8 @@ footer {
     line-height: 1.33;
     letter-spacing: -0.02em;
     color: #ffffff;
+
+    width: 180px;
   }
   .text-list {
     margin-top: 0;

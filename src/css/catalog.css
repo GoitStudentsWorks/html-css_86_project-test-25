@@ -394,7 +394,7 @@
 
   .catalog-btn:hover,
   .catalog-btn:focus {
-    border-color: var(#ffffff);
+    border-color: #ffffff;
   }
 
   .catalog-pointer {

@@ -44,7 +44,7 @@ img {
   padding: 0 20px;
 }
 
-@media and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 734px;
     padding-right: 15px;
@@ -52,7 +52,7 @@ img {
   }
 }
 
-@media and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1206px;
     padding-right: 15px;
