@@ -22,7 +22,6 @@
   margin-bottom: 40px;
 }
 
-
 .main-catalog-icon {
   display: none;
 }
@@ -63,7 +62,6 @@
   letter-spacing: -0.02em;
   color: #141414;
   margin-bottom: 4px;
-
 }
 
 .catalog-cards-subtitle {
@@ -522,7 +520,6 @@
   .modal-textarea {
     width: 507px;
   }
-}
 
   .container-modal-btn {
     width: 507px;
