@@ -28,6 +28,10 @@ button {
   cursor: pointer;
 }
 
+address {
+  font-style: normal;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -97,8 +101,4 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-address {
-  font-style: normal;
 }
