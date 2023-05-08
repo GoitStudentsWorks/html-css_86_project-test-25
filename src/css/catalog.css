@@ -453,7 +453,7 @@
 
 @media screen and (min-width: 1280px) {
   .main-section-catalog {
-    background-color: #efefef;
+    background-color: rgba(251, 251, 251, 1);
   }
   .container {
     width: 1206px;
