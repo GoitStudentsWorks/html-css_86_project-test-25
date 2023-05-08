@@ -1,3 +1,4 @@
+
 .address {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -8,9 +9,16 @@ footer {
   padding-bottom: 20px;
 }
 .footer-logo {
+  width: 50px;
   display: flex;
   fill: #ffffff;
   background-color: transparent;
+    transition-property: transform;
+  transition-duration: 300ms;
+}
+.footer-logo:hover,
+.footer-logo:focus{
+    transform: scale(1.1);
 }
 .footer-logo-svg {
   width: 40px;
@@ -21,21 +29,32 @@ footer {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #ffffff;
-
+    transition-property: transform;
+  transition-duration: 300ms;
   display: block;
   width: 140px;
 }
-
+.footer-address:hover,
+.footer-address:focus{
+ transform: scale(1.1);
+}
 .footer-address-span {
   display: block;
 }
 
 .footer-menu {
+  display: block;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #ffffff;
+    transition-property: transform;
+  transition-duration: 300ms;
+}
+.footer-menu:hover,
+.footer-menu:focus{
+transform: scale(1.2);
 }
 .footer-svg-menu {
   fill: #ffffff;
@@ -46,6 +65,12 @@ footer {
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+.footer-svg-menu:hover,
+.footer-svg-menu:focus{
+   transform: scale(1.2);
 }
 .footer-text {
   font-size: 12px;
@@ -162,4 +187,5 @@ footer {
   .footer-list-svg-menu {
     margin-left: auto;
   }
+
 }
