@@ -43,10 +43,12 @@
     font-size: 40px;
     line-height: 1.1;
     margin-right: 40px;
+    margin-bottom: 0;
   }
   .about-top-text {
     margin-right: 20px;
     width: 220px;
+    margin-bottom: 0;
   }
   .about-bottom-text {
     width: 250px;
