@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   color: var(--main-dark-color);
   margin-bottom: 40px;
@@ -44,14 +44,13 @@
 
 @media screen and (min-width: 768px) {
   .new-watches {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 80px;
+    max-width: 734px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .green-and-bronze {
     max-width: 448px;
-    line-height: 44px;
+    line-height: 1.1;
     font-size: 40px;
   }
   .new-watches-list {
@@ -64,16 +63,16 @@
 
 @media screen and (min-width: 1280px) {
   .new-watches {
-    max-width: 1176px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 80px;
+    max-width: 1206px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 102px;
     padding-bottom: 80px;
   }
   .green-and-bronze {
     margin-bottom: 80px;
     max-width: 448px;
-    line-height: 44px;
+    line-height: 1.1;
     font-size: 40px;
   }
   .new-watches-list {

@@ -346,6 +346,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .main-section-catalog {
+    padding-bottom: 128px;
+  }
+
   .container {
     width: 734px;
     padding-right: 15px;
