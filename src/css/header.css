@@ -47,7 +47,7 @@
 }
 .header-menu-btn:hover,
 .header-menu-btn:focus {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 .header-burger-icon {
   fill: var(--main-light-color);
@@ -58,7 +58,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #1e2827;
+  background-color: var(--dark-green);
   z-index: 1000;
   overflow: auto;
   opacity: 0;
@@ -108,7 +108,7 @@
 }
 .header-mob-nav-link:hover,
 .header-mob-nav-link:focus {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 @media screen and (max-width: 767px) {
   .header-nav-list {
@@ -151,13 +151,8 @@
     line-height: 1.33;
     text-transform: uppercase;
     color: var(--main-light-color);
-    /* transition-property: transform;
-    transition-duration: 300ms; */
+    padding: 18px 0;
   }
-  /* .header-nav-link:hover,
-  .header-nav-link:focus {
-    transform: scale(1.1);
-  } */
   .header-address-link {
     display: inline-block;
     width: 160px;
