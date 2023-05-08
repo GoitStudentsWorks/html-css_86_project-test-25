@@ -28,6 +28,10 @@ button {
   cursor: pointer;
 }
 
+address {
+  font-style: normal;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -38,6 +42,51 @@ img {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 734px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1206px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@font-face {
+  font-family: Epilogue;
+  src: url(../fonts/Epilogue/static/Epilogue-Light.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Epilogue;
+  src: url(../fonts/Epilogue/static/Epilogue-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Epilogue;
+  src: url(../fonts/Epilogue/static/Epilogue-SemiBold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
 }
 
 .visually-hidden {
@@ -52,8 +101,4 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-address {
-  font-style: normal;
 }
