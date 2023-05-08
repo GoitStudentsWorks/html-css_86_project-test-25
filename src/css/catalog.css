@@ -46,6 +46,7 @@
   position: relative;
   overflow: hidden;
   min-height: 360px;
+  padding: 42px 30px;
 }
 
 .catalog-card {
@@ -485,6 +486,7 @@
     margin-bottom: 14px;
     /* display: flex; */
     justify-content: center;
+    padding: 25px 0;
   }
 
   .main-catalog-list {
