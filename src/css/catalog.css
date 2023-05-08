@@ -26,7 +26,7 @@
   display: none;
 }
 .main-catalog-img {
-  margin: o auto;
+  margin: 0 auto;
 }
 .main-catalog-list {
 }
@@ -185,8 +185,8 @@
   border: transparent;
 }
 .modal-icon {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
 }
 
 .modal-img {
@@ -444,8 +444,8 @@
   }
 
   .modal-icon {
-    width: 12px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -534,9 +534,5 @@
   }
   .container-modal-btn {
     margin-top: 40px;
-  }
-  .modal-icon {
-    width: 12px;
-    height: 12px;
   }
 }
