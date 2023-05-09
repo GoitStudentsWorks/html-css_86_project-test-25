@@ -2,6 +2,7 @@
 .hero {
   background-color: var(--main-background-black-color);
   padding-bottom: 40px;
+  margin-top: -1px;
 }
 
 .hero-title {
@@ -115,6 +116,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     padding-bottom: 64px;
+    margin-top: -1px;
   }
   .container {
     width: 734px;
@@ -174,6 +176,7 @@
     padding-left: 15px;
     gap: 0;
   }
+
   .hero-title {
     width: 750px;
     margin-bottom: 42px;
@@ -210,5 +213,6 @@
   .hero {
     max-width: 1440px;
     margin: 0 auto;
+    margin-top: -1px;
   }
 }
