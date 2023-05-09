@@ -116,7 +116,7 @@
   .hero {
     padding-bottom: 64px;
   }
-  .hero .container {
+  .container {
     width: 734px;
     padding-right: 15px;
     padding-left: 15px;
@@ -168,7 +168,7 @@
 
 /* Desktop Media */
 @media screen and (min-width: 1280px) {
-  .hero .container {
+  .container {
     width: 1206px;
     padding-right: 15px;
     padding-left: 15px;
@@ -205,5 +205,10 @@
 
   .hero-picture {
     height: 394px;
+  }
+
+  .hero {
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }

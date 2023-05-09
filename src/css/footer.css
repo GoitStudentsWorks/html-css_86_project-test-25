@@ -198,4 +198,9 @@ footer {
   .footer-list-svg-menu {
     margin-left: auto;
   }
+
+  .footer {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 }

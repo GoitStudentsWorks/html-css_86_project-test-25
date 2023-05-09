@@ -77,4 +77,9 @@
     height: 500px;
     margin-left: auto;
   }
+
+  .about {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 }

@@ -111,10 +111,11 @@ ul {
   gap: 10px;
 }
 
-.mini-gallary-list {
-  max-width: 80px;
-  max-height: 350px;
+.mini-gallery-list {
+  width: 80px;
+  height: 350px;
 }
+
 .mini-gallery {
   display: block;
   height: 80px;
@@ -157,9 +158,19 @@ ul {
     width: 572px;
     margin: 0 auto;
   }
-  .mini-gallery {
+
+  .mini-gallery-list {
     width: 146px;
-    height: 146px;
+    height: 614px;
+  }
+
+  .mini-gallery-item {
+    width: 146px;
+  }
+
+  .mini-gallery {
+    min-width: 146px;
+    min-height: 146px;
   }
   .main-image-sale {
     max-width: 406px;
@@ -174,9 +185,10 @@ ul {
     font-size: 38px;
     line-height: 1.1;
   }
-}
-.text-sale {
-  max-width: 572px;
+
+  .text-sale {
+    max-width: 572px;
+  }
 }
 
 /*----DESCTOP---*/
@@ -209,5 +221,10 @@ ul {
   }
   .text-sale {
     max-width: 369px;
+  }
+
+  .sale {
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
