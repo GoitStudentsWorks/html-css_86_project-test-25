@@ -102,3 +102,47 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 5px 0;
+
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+}
+
+.scrollToTopBtn:hover {
+  background-color: #1e2827;
+}
+
+.scrollToTopBtn:hover .scroll-btn-icon {
+  fill: #fff;
+}
+
+.scroll-btn-icon {
+  fill: #1e2827;
+}
+
+.scroll-btn {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
