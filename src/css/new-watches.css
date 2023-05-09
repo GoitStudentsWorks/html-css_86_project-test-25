@@ -1,10 +1,7 @@
 .new-watches {
-  max-width: 375px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-bottom: 128px;
 }
+
 .new-head {
   font-family: 'Epilogue';
   font-style: normal;
@@ -43,8 +40,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .new-watches {
-    max-width: 734px;
+  .container {
+    width: 734px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -63,12 +60,16 @@
 
 @media screen and (min-width: 1280px) {
   .new-watches {
-    max-width: 1206px;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 102px;
     padding-bottom: 80px;
   }
+
+  .container {
+    width: 1206px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .green-and-bronze {
     margin-bottom: 80px;
     max-width: 448px;

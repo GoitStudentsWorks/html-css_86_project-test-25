@@ -26,12 +26,12 @@
   display: none;
 }
 .main-catalog-img {
-  margin: 0 auto;
 }
 .main-catalog-list {
 }
 
 .main-catalog-item {
+  margin-bottom: 40px;
 }
 
 .main-catalog-item:hover .catalog-pointer {
@@ -46,7 +46,9 @@
   position: relative;
   overflow: hidden;
   min-height: 360px;
-  padding: 42px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .catalog-card {
@@ -315,9 +317,14 @@
     width: 375px;
   }
 
+  .main-catalog-item {
+    margin-bottom: 0;
+  }
+
   .main-catalog-wrap {
-    /* display: flex; */
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .main-catalog-item:nth-child(n + 9) {
