@@ -108,7 +108,6 @@ footer {
 
 .footer-text-bottom:hover,
 .footer-text-bottom:focus {
-  background-color: var(--main-background-black-color);
   transform: scale(1.1);
 }
 
